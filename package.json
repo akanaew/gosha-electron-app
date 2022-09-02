@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": "Канаев Андрей",
+  "description": "Карусель для РЖД",
   "dependencies": {
     "@electron/remote": "^2.0.8",
     "dotenv": "^16.0.2",
@@ -25,12 +27,13 @@
   },
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "Каруселька"
+            "name": "Carousel"
           }
         },
         {

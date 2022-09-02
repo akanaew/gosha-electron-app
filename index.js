@@ -7,6 +7,7 @@ dotenv.config();
 function createWindow () {
   const win = new BrowserWindow({
     fullscreen: true,
+    autoHideMenuBar: true,
     webPreferences: {
     }
   })
